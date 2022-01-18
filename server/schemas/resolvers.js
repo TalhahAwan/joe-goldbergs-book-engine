@@ -15,27 +15,27 @@ const resolvers = {
   },
 
   Mutation: {
-    addProfile: async (parent, { name, email, password }) => {
-      const profile = await Profile.create({ name, email, password });
-      const token = signToken(profile);
+    addUser: async (parent, args ) => {
+      const user = await user.create(args);
+      const token = signToken(user);
 
-      return { token, profile };
+      return { token, user };
     },
     login: async (parent, { email, password }) => {
-      const profile = await Profile.findOne({ email });
+      const user = await user.findOne({ email });
 
-      if (!profile) {
+      if (!user) {
         throw new AuthenticationError('No profile with this email found!');
       }
 
-      const correctPw = await profile.isCorrectPassword(password);
+      const correctPw = await user.isCorrectPassword(password);
 
       if (!correctPw) {
         throw new AuthenticationError('Incorrect password!');
       }
 
       const token = signToken(profile);
-      return { token, profile };
+      return { token, user };
     },
 
     // Add a third argument to the resolver to access data in our `context`
