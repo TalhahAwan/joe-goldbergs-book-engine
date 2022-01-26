@@ -2,17 +2,17 @@
 
 ## Description
 
-I was motivated to complete this project to gain a larger understanding on how to make readmes through node JS.
-I built this project to deliver the client a ReadMe generator.
+I was motivated to complete this project to gain a larger understanding on how to make an app through MERN.
+I built this project to deliver the client a Book Search Engine.
 Created a webpage from the ground up to deliver to the client.
-I learned better understanding of node js.
+I learned better understanding of MERN.
 
 ## Installation
 
 1. Install this project by going to the repository and cloning it on to your local drive.
 2. Open in VS code.
-3. Use node JS to start application.
-4. You should now be able to view the questions.
+3. Use npm start to start application.
+4. You should now be able to view the app.
 
 ## Usage
 
