@@ -16,7 +16,7 @@ I learned better understanding of node js.
 
 ## Usage
 
-https://watch.screencastify.com/v/wJUYtQsHOiTn1nrPamDA
+
 
 ## Credits
 https://www.markdownguide.org/basic-syntax/
