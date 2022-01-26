@@ -22,6 +22,7 @@ I learned better understanding of MERN.
 https://www.markdownguide.org/basic-syntax/
 https://guides.github.com/features/mastering-markdown/
 https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+Classmate: Alice Phan
 
 MIT License
 
